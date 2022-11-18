@@ -1,0 +1,29 @@
+{
+  "error": {
+    "closed_db": "There is an unexpected error while connecting the database. Please contact cDev team for system recovery.",
+    "disconnected_db": "The database is disconnected from the bot. Please contact cDev team for system recovery.",
+    "connecting_db": "The database is connecting. Please try again later.",
+
+    "slash_missing_identifier": "Invalid user/guild data during interaction. Please try again later.",
+    "slash_user_verification_pass_error": "Error while checking Discord user verification with status code [{var1}]",
+    "slash_user_verification_pass_invalid_result": "Invalid Discord user verification result with status code [{var1}]",
+    "slash_unregistered_command": "No command available.",
+    "slash_failed_retrieve_file": "Missing file in the backend.",
+    "slash_failed_retrieve_ownership": "Unable to fetch owner bot details. Please try again later.",
+    "slash_unregistered_guild": "Unsupported server variants.",
+    "slash_sales_restrict": "This command is restricted for **cDev Team** only.",
+    "slash_sales_denied": "Access denied.",
+    "slash_ownership_only": "This command is for bot owner only.",
+    "slash_specific_ownership_only": "This command is for selected bot owner only.",
+    "slash_cooldown": {
+      "description": "Currently in cooldown mode.",
+      "footer": "Please wait for: {var1}"
+    },
+    "slash_permission": {
+      "missing_user": "You don't have permissions to do this.",
+      "missing_bot": "Your bot doesn't have permissions to do this."
+    },
+    "slash_finale_execute_error": "Unable to execute this command.",
+    "slash_finale_backend_error": "Interaction internal error."
+  }
+}
