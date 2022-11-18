@@ -12,7 +12,7 @@ Please [visit CONTRIBUTING page](CONTRIBUTING.md) for more information about the
 
 ### Status
 - 🟩 Ready for new changes.
-- 🟨 Currently in-testing; not ready for foreign changes.
+- 🟨 Currently in-testing; or paused; not ready for foreign changes.
 - 🟥 Unavailable; not accepting any changes.
 
 # License
