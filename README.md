@@ -17,4 +17,4 @@ Please [visit CONTRIBUTING page](CONTRIBUTING.md) for more information about the
 
 # License
 This project is licensed under **GNU General Public License v3.0**.
-[Click here](https://github.com/cdev-oss/locales/blob/master/LICENSE) to see the full license.
+[Click here](LICENSE) to see the full license.
