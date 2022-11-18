@@ -14,3 +14,4 @@ This page is intended made for contributing translations on our product.
 
 # License
 This project is licensed under **GNU General Public License v3.0**.
+[Click here](https://github.com/cdev-oss/locales/blob/master/LICENSE) to see the full license.
