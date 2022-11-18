@@ -1,6 +1,9 @@
 # cDev (Locales)
 This page is intended made for contributing translations on our product.
 
+# Contribution Guide
+Please [visit CONTRIBUTING page](CONTRIBUTING.md) for more information about the contribution.
+
 # Products with Locales
 | Currently Available | Status |
 |---|---|
