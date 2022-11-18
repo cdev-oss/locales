@@ -5,6 +5,8 @@ Please keep an eye on our [Discord support server](https://discord.cdev.shop) fo
 
 # How to contribute translations
 - Contact our **cDev team** first before forking/creating some changes.
+- Tell us which language you want to contribute.
+- Create a JSON file with your own [locale code](http://www.lingoes.net/en/translator/langcode.htm). For example, if you want to translate **French**, create a JSON file with filename, `fr-FR.json`.
 
 # Guide
 - Keep the overall feeling of the bot consistent with the English version.
