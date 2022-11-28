@@ -1,29 +1,106 @@
 {
   "error": {
-    "closed_db": "There is an unexpected error while connecting the database. Please contact cDev team for system recovery.",
-    "disconnected_db": "The database is disconnected from the bot. Please contact cDev team for system recovery.",
-    "connecting_db": "The database is connecting. Please try again later.",
+    "database": {
+      "closed": "There is an unexpected error while connecting the database. Please contact cDev team for system recovery.",
+      "disconnected": "The database is disconnected from the bot. Please contact cDev team for system recovery.",
+      "connecting": "The database is connecting. Please try again later."
+    },
 
-    "slash_missing_identifier": "Invalid user/guild data during interaction. Please try again later.",
-    "slash_user_verification_pass_error": "Error while checking Discord user verification with status code [{var1}]",
-    "slash_user_verification_pass_invalid_result": "Invalid Discord user verification result with status code [{var1}]",
-    "slash_unregistered_command": "No command available.",
-    "slash_failed_retrieve_file": "Missing file in the backend.",
-    "slash_failed_retrieve_ownership": "Unable to fetch owner bot details. Please try again later.",
-    "slash_unregistered_guild": "Unsupported server variants.",
-    "slash_sales_restrict": "This command is restricted for **cDev Team** only.",
-    "slash_sales_denied": "Access denied.",
-    "slash_ownership_only": "This command is for bot owner only.",
-    "slash_specific_ownership_only": "This command is for selected bot owner only.",
-    "slash_cooldown": {
-      "description": "Currently in cooldown mode.",
-      "footer": "Please wait for: {var1}"
+    "slash": {
+      "missing_identifier": "Invalid user/guild data during interaction. Please try again later.",
+      "user_verification_pass_error": "Error while checking Discord user verification with status code [{var1}]",
+      "user_verification_pass_invalid_result": "Invalid Discord user verification result with status code [{var1}]",
+      "unregistered_command": "No command available.",
+      "failed_retrieve_file": "Missing file in the backend.",
+      "failed_retrieve_ownership": "Unable to fetch owner bot details. Please try again later.",
+      "unregistered_guild": "Unsupported server variants.",
+      "sales_restrict": "This command is restricted for **cDev Team** only.",
+      "sales_denied": "Access denied.",
+      "ownership_only": "This command is for bot owner only.",
+      "specific_ownership_only": "This command is for selected bot owner only.",
+      "cooldown": {
+        "description": "Currently in cooldown mode.",
+        "footer": "Please wait for: {var1}"
+      },
+      "permission": {
+        "missing_user": "You don't have permissions to do this.",
+        "missing_bot": "Your bot doesn't have permissions to do this."
+      },
+      "finale_execute_error": "Unable to execute this command.",
+      "finale_backend_error": "Interaction internal error."
     },
-    "slash_permission": {
-      "missing_user": "You don't have permissions to do this.",
-      "missing_bot": "Your bot doesn't have permissions to do this."
+
+    "cdn": {
+      "post": "Unable to upload content to our CDN."
     },
-    "slash_finale_execute_error": "Unable to execute this command.",
-    "slash_finale_backend_error": "Interaction internal error."
+
+    "feature": {
+      "giveaway": {
+        "common_sensing": {
+          "not_ended": "The specified giveaway has not ended yet.",
+          "missing_validation": "Missing message or channel.",
+          "missing_paused_time": "Missing last paused time record.",
+          "currently_paused": "The specified giveaway is currently being paused.",
+          "already_ended": "The specified giveaway has already ended.",
+          "already_paused": "The specified giveaway has already been paused."
+        },
+
+        "start": {
+          "lack_perms": "The bot is lack of permission(s) in {var1} - [Read Messages, Embed Links, Add Reactions, Send Messages]",
+          "image_unavailable": "Unable to fetch the embed image.",
+          "image_content_type": "Missing content type.",
+          "data_creation": "Unable to create giveaway data for: {var1}"
+        },
+
+        "resume": {
+          "time_checking": "Unable to recreate a time-checking for: {var1}"
+        }
+      }
+    }
+  },
+
+
+
+  "feature": {
+    "channel_lockdown": {
+      "in_lock": {
+        "title": "Channel Locked"
+      }
+    },
+
+    "fivem": {
+      "link_button_instrument": "Click to Join",
+      "embed": {
+        "server_status": "Server Status",
+        "queue": "Queue",
+        "players": "Players",
+        "author": "FiveM Server Status",
+        "restart_times": "Restart Times",
+        "until_restart": "Time Until Restart",
+        "direct_ip": "Direct IP",
+        "redirect": "Redirect"
+      }
+    },
+
+    "giveaway": {
+      "template": {
+        "description": "React with {var1} to participate!",
+        "info": "Info",
+        "ends": "Ends",
+        "host": "Hosted by",
+        "pause": "Currently paused.",
+        "winning": "You've won the giveaway on *{var1}*: **{var2}** \n> {var3}",
+
+        "lack_winners": {
+          "message": "Giveaway has ended, but no one participated. \n{var1}",
+          "embed": "Giveaway ended, no one participated."
+        },
+
+        "winners": {
+          "message": "New winner(s): {var1} \nCongratulations, you won **{var2}**! \n{var3}",
+          "word": "Winners"
+        }
+      }
+    }
   }
 }
